@@ -1,102 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi CV - Presentación</title>
+  <title>Publicación Tech - Inteligencia Artificial</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
       margin: 0;
-      background: #f4f4f4;
+      padding: 0;
+      line-height: 1.6;
       color: #333;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
     }
 
     .container {
       max-width: 800px;
-      margin: 40px auto;
+      margin: 30px auto;
       background: #fff;
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
-    h1, h2 {
+    h1 {
+      margin-bottom: 10px;
       color: #2c3e50;
     }
 
-    .header {
+    .meta {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
       text-align: center;
-    }
-
-    .profile-img {
-      width: 120px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-
-    .section {
-      margin-top: 30px;
-    }
-
-    .section h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 5px;
-    }
-
-    .info p {
-      margin: 5px 0;
-    }
-
-    ul {
-      padding-left: 20px;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img src="https://via.placeholder.com/120" alt="Foto de perfil" class="profile-img"/>
-      <h1>Juan Pérez</h1>
-      <p>Desarrollador Web Fullstack</p>
-    </div>
 
-    <div class="section info">
-      <h2>Información Personal</h2>
-      <p><strong>Email:</strong> juan.perez@example.com</p>
-      <p><strong>Teléfono:</strong> +52 123 456 7890</p>
-      <p><strong>Ubicación:</strong> Ciudad de México, México</p>
-    </div>
+<header>
+  <h1>TecnoBlog MX</h1>
+  <p>Noticias y análisis del mundo tecnológico</p>
+</header>
 
-    <div class="section">
-      <h2>Perfil Profesional</h2>
-      <p>Soy un desarrollador apasionado por crear soluciones eficientes y elegantes. Me especializo en tecnologías como Laravel, Vue.js y React.</p>
-    </div>
+<div class="container">
+  <h1>La inteligencia artificial revoluciona el desarrollo de software</h1>
+  <p class="meta">Publicado por <strong>Hugo Martínez</strong> | 30 de mayo, 2025</p>
 
-    <div class="section">
-      <h2>Experiencia Laboral</h2>
-      <ul>
-        <li><strong>Desarrollador Backend - Empresa X (2023 - Actualidad)</strong><br/> Desarrollo de APIs REST con Laravel.</li>
-        <li><strong>Desarrollador Junior - Empresa Y (2021 - 2023)</strong><br/> Mantenimiento y desarrollo en PHP y MySQL.</li>
-      </ul>
-    </div>
+  <img src="https://source.unsplash.com/800x400/?artificial-intelligence,technology" alt="Inteligencia Artificial" />
 
-    <div class="section">
-      <h2>Educación</h2>
-      <ul>
-        <li><strong>Licenciatura en Ingeniería en Sistemas</strong> - Universidad ABC (2017 - 2021)</li>
-      </ul>
-    </div>
+  <p>
+    La inteligencia artificial (IA) ha cambiado radicalmente la manera en que desarrollamos software. Desde asistentes inteligentes que escriben código, hasta herramientas que detectan errores antes de que ocurran, la IA se ha convertido en una aliada clave para desarrolladores de todo el mundo.
+  </p>
 
-    <div class="section">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>PHP / Laravel</li>
-        <li>JavaScript / Vue / React</li>
-        <li>MySQL / PostgreSQL</li>
-        <li>Git / GitHub</li>
-      </ul>
-    </div>
-  </div>
+  <h2>¿Cómo ayuda la IA a los programadores?</h2>
+  <p>
+    Plataformas como GitHub Copilot, ChatGPT y Tabnine permiten a los desarrolladores escribir código más rápido, entender mejor las APIs y automatizar tareas repetitivas. Esto no solo mejora la productividad, sino también la calidad del software entregado.
+  </p>
+
+  <h2>El futuro del desarrollo</h2>
+  <p>
+    Se espera que la integración de IA en entornos de desarrollo continúe creciendo. Lenguajes de programación como Python, JavaScript y PHP ya están viendo herramientas basadas en IA integradas directamente en editores como VS Code o JetBrains.
+  </p>
+
+  <p>
+    Para más detalles sobre cómo usar IA en tus proyectos, visita nuestra <a href="#">guía completa aquí</a>.
+  </p>
+</div>
+
+<footer>
+  © 2025 TecnoBlog MX - Todos los derechos reservados.
+</footer>
+
 </body>
 </html>
